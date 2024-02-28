@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Principal</title>
+</head>
+
+<body style="background-color: rgb(49, 81, 81); color: aliceblue;">
+  <table style="width:100%; height:100%;">
+    <tr>
+      <th id="th-usuario">
+        <h2>Usuarios</h2>
+      </th>
+      <th id="th-producto">
+        <h2>Productos</h2>
+      </th>
+    </tr>
+    <tr>
+      <td style="width:50%; border-right:1px solid black;" id="td-usuario">
+        <input type="text" placeholder="username" id="user">
+        <input type="text" placeholder="role" id="role">
+        <input type="password" placeholder="...." id="pass">
+        <button id="add-user" style="background-color: chocolate;">Agregar</button>
+      </td>
+      <td style="width:50%; border-right:1px solid black;" id="td-producto">
+        <input type="text" placeholder="nombre" id="nombre">
+        <input type="number" min="0" placeholder="precio" id="precio">
+        <button id="add-producto" style="background-color: chocolate;">Agregar</button>
+      </td>
+    </tr>
+    <tr>
+      <td style="width:50%; border-right:1px solid black;">
+        <table id="usuarios"></table>
+      </td>
+      <td style="width:50%; border-right:1px solid black;">
+        <table id="productos"></table>
+      </td>
+    </tr>
+  </table>
+  <script src="./principal.js"></script>
+</body>
+
+</html>

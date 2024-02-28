@@ -1,0 +1,35 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#contenedor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: bisque;
+}
+
+#title{
+  font-size: 50px;
+}
+
+#iniciar-sesion{
+  font-size: 30px;
+  margin-top: 20px;
+}
+
+#btn-sesion{
+  font-size: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  background-color: rgb(129, 235, 235);
+}
+
+#btn-sesion a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
